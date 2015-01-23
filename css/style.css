@@ -7,7 +7,7 @@
  */
 
 @media only screen and (min-width : 993px) {
-header, main, footer, .section {
+header, main, footer {
 padding-left: 240px;
 }
 }
