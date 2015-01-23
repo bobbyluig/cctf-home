@@ -1,0 +1,72 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@media only screen and (min-width : 993px) {
+header, main, footer, .section {
+padding-left: 240px;
+}
+}
+ 
+ 
+.icon-block {
+    padding: 0 15px;
+}
+
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=date]:focus + label, .input-field textarea:focus + label {
+    color: #ffab40;
+}
+
+.input-field .prefix.active {
+    color: #ffab40;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, textarea:focus {
+    border-bottom: 1px solid #ffab40;
+    -webkit-box-shadow: 0 1px 0 0 #ffab40;
+    -moz-box-shadow: 0 1px 0 0 #ffab40;
+    box-shadow: 0 1px 0 0 #ffab40;
+}
+
+@media only screen and (min-width : 993) {
+    header, main, footer, .section {
+        padding-left: 240px;
+    };
+}
+
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+
+#logo-container {
+    height: 57px;
+    margin-bottom: 32px;
+}
+
+#front-page-logo {
+    display: inline-block;
+    height: 100%;
+    pointer-events: none;
+};
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    };
+}
+
+
+a {
+  color: #ffab40;
+}
