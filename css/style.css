@@ -1,94 +1,85 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 @media only screen and (min-width : 993px) {
-header, main, footer {
-padding-left: 240px;
-}
+	header, main, footer {
+		padding-left: 240px;
+	};
 }
 
-body
-{
-	background-color: #fbfbfb;
-}
- 
 .icon-block {
-    padding: 0 15px;
+	padding: 0 15px;
 }
 
 .input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=date]:focus + label, .input-field textarea:focus + label {
-    color: #ff950d;
+	color: #ff950d;
 }
 
 .input-field .prefix.active {
-    color: #ff950d;
+	color: #ff950d;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, textarea:focus {
-    border-bottom: 1px solid #ff950d;
-    -webkit-box-shadow: 0 1px 0 0 #ff950d;
-    -moz-box-shadow: 0 1px 0 0 #ff950d;
-    box-shadow: 0 1px 0 0 #ff950d;
+	border-bottom: 1px solid #ff950d;
+	-webkit-box-shadow: 0 1px 0 0 #ff950d;
+	-moz-box-shadow: 0 1px 0 0 #ff950d;
+	box-shadow: 0 1px 0 0 #ff950d;
 }
 
 @media only screen and (min-width : 993) {
-    header, main, footer, .section {
-        padding-left: 240px;
-    };
+	header, main, footer, .section {
+		padding-left: 240px;
+	};
 }
 
 ul.side-nav.fixed li.logo {
-    text-align: center;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #ddd;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #ddd;
 }
 
 ul.side-nav.fixed li.logo:hover {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 #logo-container {
-    height: 57px;
-    margin-bottom: 32px;
+	height: 57px;
+	margin-bottom: 32px;
 }
 
 #front-page-logo {
-    display: inline-block;
-    height: 100%;
-    pointer-events: none;
+	display: inline-block;
+	height: 100%;
+	pointer-events: none;
 };
 
 @media only screen and (max-width : 992px) {
-    header, main, footer {
-        padding-left: 0;
-    };
+	header, main, footer {
+		padding-left: 0;
+	};
 }
-
 
 a {
-  color: #ff950d;
+	color: #ff950d;
 }
+
 ul.side-nav.full li, ul.side-nav.fixed li {
 	transition: background-color 0.3s ease 0s;
 }
+
 ul.side-nav.full li:hover, ul.side-nav.fixed li:hover {
 	background-color: #ebf6eb;
 }
+
 ul.side-nav.full li.active, ul.side-nav.fixed li.active {
-    background-color: #a4d7a6;
+	background-color: #a4d7a6;
 }
+
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, input[type=tel]:focus, input[type=number]:focus, textarea:focus.materialize-textarea {
-    border-bottom: 1px solid #ff950d;
-    -webkit-box-shadow: 0 1px 0 0 #ff950d;
-    -moz-box-shadow: 0 1px 0 0 #ff950d;
-    box-shadow: 0 1px 0 0 #ff950d;
+	border-bottom: 1px solid #ff950d;
+	-webkit-box-shadow: 0 1px 0 0 #ff950d;
+	-moz-box-shadow: 0 1px 0 0 #ff950d;
+	box-shadow: 0 1px 0 0 #ff950d;
 }
+
 .input-field input[type=text]:focus+label, .input-field input[type=password]:focus+label, .input-field input[type=email]:focus+label, .input-field input[type=date]:focus+label, .input-field input[type=tel]:focus+label, .input-field input[type=number]:focus+label, .input-field textarea:focus.materialize-textarea+label {
-    color: #ff950d;
+	color: #ff950d;
 }
