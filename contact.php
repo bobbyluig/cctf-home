@@ -1,6 +1,6 @@
 <?php
 
-DEFINE('ADMIN_EMAIL', 'bobbyluig@gmail.com');
+DEFINE('ADMIN_EMAIL', 'contact@camsctf.com');
 
 header('Content-Type: application/json');
 
@@ -26,7 +26,7 @@ else
 {
 	date_default_timezone_set('America/Los_Angeles');
 	$date = date('m/d/Y h:i:s a', time());
-	$subject = 'Contact Us';
+	$subject = 'Contact Us - ' . $first;
 	
 	$body = sprintf("Dear maintainer,\n\nThe following message was sent by %s %s on %s.\n\n<<%s>>\n\nPlease respond to his/her email: %s.", $first, $last, $date, $message, $email);
 	$success = mail(ADMIN_EMAIL, $subject, $body);
