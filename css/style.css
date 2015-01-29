@@ -98,3 +98,7 @@ main
 {
 	flex: 1;
 }
+.card a
+{
+	margin-right: 0;
+}
