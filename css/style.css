@@ -87,3 +87,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 .card .card-action {
 	border-top: 1px solid rgba(73, 164, 77, 1);
 }
+
+body
+{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main
+{
+	flex: 1;
+}
