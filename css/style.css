@@ -66,11 +66,11 @@ ul.side-nav.full li, ul.side-nav.fixed li {
 }
 
 ul.side-nav.full li:hover, ul.side-nav.fixed li:hover {
-	background-color: #e8eaf6;
+	background-color: #edf0fe;
 }
 
 ul.side-nav.full li.active, ul.side-nav.fixed li.active {
-	background-color: #9fa8da;
+	background-color: #a9b6fe;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, input[type=tel]:focus, input[type=number]:focus, textarea:focus.materialize-textarea {
