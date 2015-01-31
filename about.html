@@ -98,17 +98,45 @@
 					</div>
 					<div class="col s12 m6">
 						<div class="icon-block">
-							<h3 class="center indigo-text text-accent-2"><i class="mdi-action-search"></i></h3>
-							<h5 class="center">Forensics</h5>
-							<p class="light">One must employ the magic of looking inside an image.</p>
-							<p class="center"><img class="materialboxed" width="20%" src="sample/search.png"></p>
+							<h3 class="center indigo-text text-accent-2"><i class="mdi-hardware-security"></i></h3>
+							<h5 class="center">Exploitation</h5>
+							<p class="light">I believe the super secret flag is right <b>here<!-- {sup3r_s3cr3t_f1ag} --></b>. What? You don't see it? Well I'm pretty sure I left it back there though. Have you tried looking more closely at the word "here"? It's probably easier if you're on a computer.</p>
 						</div>
 					</div>
 					<div class="col s12 m6">
 						<div class="icon-block">
-							<h3 class="center indigo-text text-accent-2"><i class="mdi-communication-vpn-key"></i></h3>
-							<h5 class="center">Exploitation</h5>
-							<p class="light">I believe the super secret flag is right <b>here<!-- {sup3r_s3cr3t_f1ag} --></b>. What? You don't see it? Well I'm pretty sure I left it back there though. Have you tried looking more closely at the word "here"? It's probably easier if you're on a computer.</p>
+							<h3 class="center indigo-text text-accent-2"><i class="mdi-action-search"></i></h3>
+							<h5 class="center">Forensics</h5>
+							<p class="light">I was told that <b><a href="sample/search.png">search.png</a></b> had something hidden inside of it. What's inside of the image? I've looked at every pixel and I'm pretty sure that nothing is inside of the image. That's 262144 pixels!!!</p>
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="icon-block">
+							<h3 class="center indigo-text text-accent-2"><i class="mdi-editor-mode-edit"></i></h3>
+							<h5 class="center">Programming</h5>
+							<p class="light">The JavaScript function <b>is_correct(input)</b> will check whether the string input is the flag. It may be helpful to call the function in your browser's console. When you pass it the flag, it will tell you the flag. What a useful function.</p>
+							
+							<script>
+								flag = [ 123, 99, 104, 97, 114, 95, 99, 48, 100, 101, 115, 95, 101, 104, 63, 125 ];
+								function is_correct(input) {
+									for(var i=0; i<flag.length; i++) {
+										if(flag[i] !== input.charCodeAt(i)) {
+											toast('Incorrect!', 2500);
+											return false;
+										}
+									}
+									toast('Flag: ' + input, 5000);
+									return true;
+								}
+							</script>
+							
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="icon-block">
+							<h3 class="center indigo-text text-accent-2"><i class="mdi-action-explore"></i></h3>
+							<h5 class="center">Reconnaissance</h5>
+							<p class="light">A creator of CCTF is in love with RMS. If you <a href="/contact.html"><b>contact</b></a> CCTF and pretend to be RMS, I'm sure the system would love to give you the flag. I'm quite confident that spoofing the first and last name is enough to get you the flag.</p>
 						</div>
 					</div>
 				</div>
