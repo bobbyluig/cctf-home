@@ -85,7 +85,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 }
 
 .card .card-action {
-	border-top: 1px solid #3949ab;
+	border-top: 1px solid #B6B6B6;
 }
 
 body
@@ -105,5 +105,5 @@ main
 }
 
 b {
-	color: #3949ab;
+	color: #536DFE;
 }
