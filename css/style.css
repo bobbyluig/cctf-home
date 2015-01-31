@@ -9,18 +9,18 @@
 }
 
 .input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=date]:focus + label, .input-field textarea:focus + label {
-	color: #ff950d;
+	color: #3949ab;
 }
 
 .input-field .prefix.active {
-	color: #ff950d;
+	color: #3949ab;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, textarea:focus {
-	border-bottom: 1px solid #ff950d;
-	-webkit-box-shadow: 0 1px 0 0 #ff950d;
-	-moz-box-shadow: 0 1px 0 0 #ff950d;
-	box-shadow: 0 1px 0 0 #ff950d;
+	border-bottom: 1px solid #3949ab;
+	-webkit-box-shadow: 0 1px 0 0 #3949ab;
+	-moz-box-shadow: 0 1px 0 0 #3949ab;
+	box-shadow: 0 1px 0 0 #3949ab;
 }
 
 @media only screen and (min-width : 993) {
@@ -58,7 +58,7 @@ ul.side-nav.fixed li.logo:hover {
 }
 
 a {
-	color: #ff950d;
+	color: #3949ab;
 }
 
 ul.side-nav.full li, ul.side-nav.fixed li {
@@ -74,14 +74,14 @@ ul.side-nav.full li.active, ul.side-nav.fixed li.active {
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, input[type=tel]:focus, input[type=number]:focus, textarea:focus.materialize-textarea {
-	border-bottom: 1px solid #ff950d;
-	-webkit-box-shadow: 0 1px 0 0 #ff950d;
-	-moz-box-shadow: 0 1px 0 0 #ff950d;
-	box-shadow: 0 1px 0 0 #ff950d;
+	border-bottom: 1px solid #3949ab;
+	-webkit-box-shadow: 0 1px 0 0 #3949ab;
+	-moz-box-shadow: 0 1px 0 0 #3949ab;
+	box-shadow: 0 1px 0 0 #3949ab;
 }
 
 .input-field input[type=text]:focus+label, .input-field input[type=password]:focus+label, .input-field input[type=email]:focus+label, .input-field input[type=date]:focus+label, .input-field input[type=tel]:focus+label, .input-field input[type=number]:focus+label, .input-field textarea:focus.materialize-textarea+label {
-	color: #ff950d;
+	color: #3949ab;
 }
 
 .card .card-action {
@@ -101,4 +101,5 @@ main
 .card a
 {
 	margin-right: 0;
+	color: #3949ab;
 }
