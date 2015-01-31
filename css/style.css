@@ -98,8 +98,13 @@ main
 {
 	flex: 1;
 }
-.card a
-{
+
+.card a {
+	color: #9fa8da;
 	margin-right: 0;
-	color: #3949ab;
+	text-transform: none;
+}
+
+.card a:hover {
+	color: #c5cae9;
 }
