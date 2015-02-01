@@ -42,6 +42,10 @@ ul.side-nav.fixed li.logo {
 	border-bottom: 1px solid #ddd;
 }
 
+#sidenav-overlay {
+	z-index: 998;
+}
+
 ul.side-nav.fixed li.logo:hover {
 	background-color: transparent;
 }
