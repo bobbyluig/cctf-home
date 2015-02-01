@@ -23,10 +23,16 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 	box-shadow: 0 1px 0 0 #536dfe;
 }
 
-@media only screen and (min-width : 993) {
-	header, main, footer, .section {
-		padding-left: 240px;
-	};
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+	.modal {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.modal {
+		width: 90%;
+	}
 }
 
 ul.side-nav.fixed li.logo {
