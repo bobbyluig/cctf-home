@@ -116,3 +116,7 @@ main {
 b {
 	color: #536dfe;
 }
+
+#slide-out, #nav-mobile {
+	overflow-y: auto;
+}
