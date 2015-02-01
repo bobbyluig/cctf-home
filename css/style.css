@@ -31,7 +31,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 
 @media only screen and (max-width : 600px) {
 	.modal {
-		width: 90%;
+		width: 100%;
 	}
 }
 
