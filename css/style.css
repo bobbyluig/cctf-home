@@ -26,13 +26,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 @media only screen and (min-width : 601px) and (max-width : 992px) {
 	.modal {
 		width: 80%;
-	}
+	};
 }
 
 @media only screen and (max-width : 600px) {
 	.modal {
 		width: 100%;
-	}
+	};
 }
 
 ul.side-nav.fixed li.logo {
@@ -94,14 +94,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 	border-top: 1px solid #B6B6B6;
 }
 
-body
-{
+body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 }
-main
-{
+
+main {
 	flex: 1;
 }
 
