@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('form').submit(function() {
-		form = $(this)
+		form = $(this);
 		$.ajax({
 			type: 'POST',
 			url: $(this).attr('action'),
