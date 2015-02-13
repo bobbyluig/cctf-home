@@ -116,3 +116,11 @@ b {
 #slide-out, #nav-mobile {
 	overflow-y: auto;
 }
+
+.waves-effect {
+	display: block;
+}
+
+.waves-effect.waves-indigo .waves-ripple {
+      background-color: rgba(83, 109, 254, 0.65);
+}
