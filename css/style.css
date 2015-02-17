@@ -69,6 +69,7 @@ a {
 
 ul.side-nav.full li, ul.side-nav.fixed li {
 	transition: background-color 0.3s ease 0s;
+	line-height: 64px;
 }
 
 ul.side-nav.full li:hover, ul.side-nav.fixed li:hover {
@@ -122,5 +123,5 @@ b {
 }
 
 .waves-effect.waves-indigo .waves-ripple {
-      background-color: rgba(83, 109, 254, 0.65);
+      background-color: rgba(83, 109, 254, 0.45);
 }
