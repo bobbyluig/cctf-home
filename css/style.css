@@ -117,3 +117,7 @@ b {
 #slide-out, #nav-mobile {
 	overflow-y: auto;
 }
+
+.btn, .btn:hover {
+	background-color: #536DFE;
+}

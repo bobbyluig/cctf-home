@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$('form').submit(function() {
 		form = $(this);
+		$('button').addClass('disabled');
 		$.ajax({
 			type: 'POST',
 			url: $(this).attr('action'),
@@ -14,6 +15,7 @@ $(document).ready(function() {
 					form.find('input').blur();
 				}
 				toast(data.message, data.message.length * 150);
+				$('button').removeClass('disabled');
 			}
 		});
 		return false;
