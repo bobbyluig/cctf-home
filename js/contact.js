@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('form').submit(function() {
 		form = $(this);
-		$('button').toggleClass('disabled indigo darken-2 waves-effect waves-light').attr('disabled', true);
+		$('button', form).toggleClass('disabled indigo darken-2 waves-effect waves-light').attr('disabled', true);
 		$.ajax({
 			type: 'POST',
 			url: $(this).attr('action'),
@@ -14,7 +14,7 @@ $(document).ready(function() {
 				}
 				toast(data.message, data.message.length * 150);
 				setTimeout(function() {
-					$('button').toggleClass('disabled indigo darken-2 waves-effect waves-light').attr('disabled', false);
+					$('button', form).toggleClass('disabled indigo darken-2 waves-effect waves-light').attr('disabled', false);
 				}, 500);
 			}
 		});
