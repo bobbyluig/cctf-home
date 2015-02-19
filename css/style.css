@@ -97,8 +97,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 
 body {
 	display: flex;
-	min-height: 100vh;
+	height: 100vh;
 	flex-direction: column;
+	overflow-y: scroll;
+}
+
+header, footer {
+	flex-shrink: 0;
 }
 
 main {
