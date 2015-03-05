@@ -65,6 +65,7 @@ ul.side-nav.fixed li.logo:hover {
 
 a {
 	color: #536dfe;
+	font-weight: bold;
 }
 
 ul.side-nav.full li, ul.side-nav.fixed li {
@@ -121,4 +122,10 @@ b {
 
 #slide-out, #nav-mobile {
 	overflow-y: auto;
+}
+
+.rules li:before {
+	content: "> ";
+	color: #536dfe;
+	font-weight: bold;
 }
