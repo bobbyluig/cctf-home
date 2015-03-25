@@ -63,7 +63,7 @@ ul.side-nav.fixed li.logo:hover {
 	};
 }
 
-a {
+a, .card a, .card a:hover {
 	color: #536dfe;
 }
 
