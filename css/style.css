@@ -123,8 +123,18 @@ b {
 	overflow-y: auto;
 }
 
-.rules li:before {
+.rules li:before, .thanks li:before {
 	content: "> ";
 	color: #536dfe;
 	font-weight: bold;
+}
+
+.thanks li:after {
+	content: " <";
+	color: #536dfe;
+	font-weight: bold;
+}
+
+.thanks {
+	font-size: 1.1em;
 }
