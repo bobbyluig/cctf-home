@@ -1,10 +1,7 @@
 Options -Indexes
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.camsctf.com$ [NC]
-RewriteRule ^(.*)$ http://camsctf.com/$1 [R=301,L]
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 ErrorDocument 400 /400.html
 ErrorDocument 404 /404.html
